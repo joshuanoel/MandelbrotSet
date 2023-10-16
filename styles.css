@@ -1,4 +1,42 @@
-* {
+/* * {
 	padding: 0px;
 	margin: 0px;
+} */
+
+.loading {
+    filter: blur(5px);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.app-description {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.privacy-section {
+    text-align: center;
+    margin-top: 2em;
 }
