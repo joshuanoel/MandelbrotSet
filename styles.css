@@ -79,10 +79,10 @@ button {
   text-align: center;
   font-size: 2vw;
   transition: 0.3s;
-  width: 40vw;
+  width: 30vw;
   border-radius: 0.5vw;
   border: 0.5vw solid #fff;
-  height: 6vw;
+  height: 5vw;
   cursor: pointer;
   mix-blend-mode: screen;
   background: #fff;
