@@ -10,11 +10,11 @@ body {
 }
 
 header {
-  padding: 200px 0 0 0;
+  padding: 25vh 0 0 0;
 }
 
 .section {
-  padding: 100px 0 0 0;
+  padding: 15vh 0 0 0;
   margin: auto;
 }
 
@@ -22,7 +22,7 @@ header {
 /* Text */
 
 h1 {
-  font-size: 75px;
+  font-size: 6vw;
   margin: 0;
   background: -webkit-linear-gradient(#fff, #ddd);
   background-clip: text;
@@ -32,21 +32,28 @@ h1 {
 
 h2 {
   background: -webkit-linear-gradient(#fff, #ddd);
-  font-size: 50px;
+  font-size: 3vw;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 3vw;
 }
 
 .description {
-  font-size: 40px;
+  font-size: 2.5vw;
   max-width: 70%;
   margin: auto;
   text-align: justify;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .description {
+    text-align: center;
+  }
 }
 
 .description + .description {
@@ -61,7 +68,8 @@ a {
   max-width: 70%;
   margin: auto;
   text-align: justify;
-  padding: 10px;
+  padding: 1vh 0 1vh 0;
+  font-size: 1vw;
 }
 
 
@@ -69,12 +77,12 @@ a {
 
 button {
   text-align: center;
-  font-size: 25px;
+  font-size: 2vw;
   transition: 0.3s;
-  width: 400px;
-  border-radius: 6px;
-  border: 5px solid #fff;
-  height: 60px;
+  width: 40vw;
+  border-radius: 0.5vw;
+  border: 0.5vw solid #fff;
+  height: 6vw;
   cursor: pointer;
   mix-blend-mode: screen;
   background: #fff;
@@ -82,7 +90,6 @@ button {
 
 button:hover {
   color: white;
-  /* background: #012040; */
   background: transparent;
 }
 
@@ -92,17 +99,17 @@ button:hover {
 .questionContainer {
   max-width: 70%;
   margin: auto;
-  border: 10px solid white;
-  border-radius: 20px;
+  border: 0.5vw solid white;
+  border-radius: 2vw;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 2vh;
   text-align: left;
 }
 
 .question {
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: 600;
-  padding: 0px 80px 0px 20px;
+  padding: 0 2vw 0 2vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -114,9 +121,9 @@ button:hover {
 
 .question::after {
   content: "\002B";
-  font-size: 2.2rem;
+  font-size: 2vw;
   position: absolute;
-  right: 20px;
+  right: 2vw;
   transition: 0.2s;
 }
 
@@ -131,9 +138,9 @@ button:hover {
 }
 
 .answer {
-  padding: 0 20px 20px;
-  line-height: 1.5rem;
-  font-size: 1.2rem;
+  padding: 0 2vw 2vh 2vw;
+  line-height: 1.5vw;
+  font-size: 1.5vw;
 }
 
 
@@ -141,12 +148,11 @@ button:hover {
 
 iframe {
   width: 90%;
-  height: 90vh;
+  height: 55vw;
 }
-
 
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
 }
