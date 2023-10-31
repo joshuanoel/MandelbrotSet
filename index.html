@@ -7,6 +7,7 @@
   <title>NotAHuman</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="logo.png">
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -16,45 +17,170 @@
       Unleash the power of AI on your workflow with <i>NotAHuman</i>.
     </h2>
     <br /><br />
-    <button 
-      onclick="window.open('https://chrome.google.com/webstore/detail/notahuman/jglcohlgldhhpadbplkfcjdjnclcgeoi', '_blank');"
-    >
-      Go to the Chrome Store
+    <button
+      onclick="window.open('https://chrome.google.com/webstore/detail/notahuman/jglcohlgldhhpadbplkfcjdjnclcgeoi', '_blank');">
+      <b>Go to the Chrome Store</b>
     </button>
   </header>
 
   <div class="content">
-    <iframe 
-      src="https://www.youtube.com/embed/f3X-mJMM7G4?autoplay=0&mute=1" 
-      frameborder="0" 
-      allowfullscreen="true"
-      allow="autoplay">
-    </iframe>
-
-    <div class="description">
-      <p>
-        Introducing your new AI assistant on the web. Our Chrome extension completes your sentences as you type, with
-        context-aware suggestions that work on any input field on any website. Enhance your writing experience today!
-      </p>
-      <p>
-        With context-aware suggestions, NotAHuman can help you complete your sentences as you type. It works on any
-        input field on any website, so you can use it to enhance your writing experience anywhere on the web.
-      </p>
-      <p>
-        Start your free trial today to experience the power of AI on your workflow with 10 free suggestions so you can
-        see for yourself how NotAHuman can help you.
-      </p>
-      <p>
-        NotAHuman is available for <b>$4.99/month</b> after your free trial ends, and includes up to 5000 suggestions per 
-        month. Further suggestions are available at $0.01 each.
-      </p>
+    <div class="section">
+      <iframe src="https://www.youtube.com/embed/f3X-mJMM7G4?autoplay=0&mute=1" frameborder="0" allowfullscreen="true"
+        allow="autoplay">
+      </iframe>
     </div>
 
-    <div class="privacyPolicy">
-      <p>
-        NotAHuman collects and stores personally identifiable information for each user including email addresses and identification numbers.
+    <div class="section">
+      <b class="description">
+        Introducing your new AI assistant on the web:
+      </b>
+      <p class="description">
+        A Chrome extension that completes your sentences as you type, with
+        context-aware suggestions that work on any input field on any website. Start your free trial today to experience 
+        the power of integrated AI.
+      </p>
+      <br/>
+      <br/>
+      <button
+        onclick="window.open('https://chrome.google.com/webstore/detail/notahuman/jglcohlgldhhpadbplkfcjdjnclcgeoi', '_blank');">
+        <b>Download Now</b>
+      </button>
+    </div>
+
+    <div class="section">
+      <h3>Frequently Asked Questions</h3>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            How does <i>NotAHuman</i> work?
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              NotAHuman uses OpenAI's state-of-the-art GPT-3.5 language model to predict the end of your sentence or paragraph
+              as you type.
+            </p>
+            <p>
+              Once you stop typing, NotAHuman will suggest the most likely completion of your sentence or paragraph.
+              This suggestion is based on the context of your input, as well as the context of the entire page.
+            </p>
+            <p>
+              The suggestion will appear as selected text in the input field, and you can accept the suggestion by
+              pressing the enter key, or reject the suggestion by pressing the backspace key.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            How do I enable <i>NotAHuman</i> on a website?
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              Once you have installed the extension, you can enable/disable NotAHuman on any website by clicking the NotAHuman
+              icon in the top right corner of your browser and toggling the switch to enable/disable NotAHuman on the
+              current website.
+            </p>
+            <p>
+              Alternatively, you can enable/disable NotAHuman on the current website by selecting "Enable/Disable AI autocomplete..."
+              from the right click menu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            On which websites does <i>NotAHuman</i> work?
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              NotAHuman works on any website that has input fields, including Gmail, Outlook, Twitter, Facebook, and
+              more.
+            </p>
+            <p>
+              NotAHuman does not support rich text editors, such the contents of a Google Doc, however does support
+              custom input fields on modern websites, such as Twitter's tweet composer or Gmail's email composer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            Can I customize the suggestions provided by <i>NotAHuman</i>?
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              Yes, you can customize the suggestions to respond to a specific piece of text by selecting the text and
+              clicking the "Respond to this text with AI..." option from the right click menu.
+            </p>
+            <p>
+              This will ensure that the suggestion is based on the context of the selected text, rather than the
+              context of the entire page, which may be useful when you want to respond to a specific piece of text.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            How much does <i>NotAHuman</i> cost? 
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              NotAHuman is free to try for the first 10 suggestions so you can get a feel for the product. 
+            </p>
+            <p>
+              After that, you can purchase a subscription for $4.99/month, which includes up to 5000 
+              suggestions per month. Further suggestions are available at $0.01 each.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="questionContainer">
+        <div class="question">
+          <p>
+            What happens to my data when I use <i>NotAHuman</i>?
+          </p>
+        </div>
+        <div class="answerContainer">
+          <div class="answer">
+            <p>
+              NotAHuman collects and stores the email address associated with your Google account, as well as a unique
+              identification number for each user.
+            </p>
+            <p>
+              This information is used to identify you when you log in to the extension and to keep track of your
+              usage.
+            </p>
+            <p>
+              No other information is collected or stored.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <p class="smallText">
+        NotAHuman collects and stores personally identifiable information for each user including email addresses and
+        identification numbers.
         User information is stored in a database hosted by Digital Ocean.
-        NotAHuman uses Stripe to process payments. Stripe may collect and store personally identifiable information for each user including email addresses and identification numbers.
+        NotAHuman uses Stripe to process payments. Stripe may collect and store personally identifiable information for
+        each user including email addresses and identification numbers.
+        For additional support, please contact us at
+        <a href="mailto:notahuman.extension@gmail.com" target="_blank">this address</a>.
       </p>
     </div>
   </div>
