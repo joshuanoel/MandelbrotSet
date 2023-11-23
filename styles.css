@@ -166,9 +166,15 @@ button:hover {
 
 /* Video */
 
-iframe {
+.largeVideo {
   width: 90%;
   height: 55vw;
+}
+
+.smallVideo {
+  width: 70%;
+  height: 40vw;
+
 }
 
 /* Scrollbar */
